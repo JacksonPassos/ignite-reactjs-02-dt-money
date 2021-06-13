@@ -1,4 +1,3 @@
-import logoImg from '../../assets/logo.svg'
 import { Summary } from '../Summary';
 import { TransactionsTable } from '../TransactionsTable';
 
