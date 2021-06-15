@@ -50,3 +50,36 @@ export const Container = styled.form`
     }
 
 `;
+
+export const TransactionTypeContainer = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin: 1rem 0;
+
+
+    button {
+        background: transparent;
+        width: 14.75rem;
+        height: 4rem;
+        border: 1.5px solid #969CB3;
+        border-radius: 0.25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+
+        span {
+            display: inline-block;
+            margin-left: 1rem;
+            font-size: 1rem;
+            color: var(--text-title)
+        }
+
+
+    }
+`
