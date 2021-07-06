@@ -9,6 +9,29 @@ createServer({
 
   },
 
+  seeds(server) {
+    server.db.loadData({
+      transactions: [
+        {
+          id: 1,
+          title: 'Frelancer website',
+          category: 'dev',
+          amount: 6000,
+          type: 'deposit',
+          createdAt: new Date('2021-05-23 09:00:00')
+        },
+        {
+          id: 2,
+          title: 'Aluguel',
+          category: 'casa',
+          amount: 1100,
+          type: 'withdraw',
+          createdAt: new Date('2021-05-28 09:00:00')
+        },
+      ]
+    })
+  },
+
   routes() {
     this.namespace = 'api';
 
