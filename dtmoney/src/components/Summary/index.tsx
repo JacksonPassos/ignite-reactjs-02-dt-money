@@ -16,6 +16,8 @@ export function Summary() {
         }
         else {
             acc.withdraws -= transaction.amount
+            acc.total -= transaction.amount
+
         }
 
         return acc
