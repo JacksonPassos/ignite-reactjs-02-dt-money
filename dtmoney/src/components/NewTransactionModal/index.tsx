@@ -4,7 +4,6 @@ import incomeImg from '../../assets/income.svg';
 import outcomeImg from '../../assets/outcome.svg';
 import closeImg from '../../assets/closed.svg'
 import { Container, TransactionTypeContainer, RadioBox } from './style';
-import { api } from '../../services/api';
 import { TransactionsContext } from '../../TransactionsContext';
 
 interface NewTransactionModalProps {
